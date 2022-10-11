@@ -1,5 +1,5 @@
 # Open5gs - Malformated UE initial message crashes AMF causing DoS
-Recently, we discovered a logic vulnerability that may cause Open5gs AMF to crash during a code audit of Open5gs Ver2.4.11. 
+Recently, we discovered a vulnerability that may cause Open5gs AMF to crash during a code audit of Open5gs Ver2.4.11. 
 The specific causes of the vulnerability are as follows:
 
 ## Vulnerability description
