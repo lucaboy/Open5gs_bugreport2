@@ -137,11 +137,11 @@ static void app_context_prepare(void)
 To trigger this vulnerability, an `InitialUEMessage` without `UserLocationInformation` needs to be build.
 
 
-![](https://notes.sjtu.edu.cn/uploads/upload_85c748823c0fffe614af9a6199a29a3b.png)
+![](https://github.com/ToughRunner/Open5gs_bugreport2/blob/main/1.png)
 
 AMF will crash after 1024 malformated UE initial messages is reached.
 
-![](https://notes.sjtu.edu.cn/uploads/upload_9a1569f24d850ede9dcba127fbd11a59.png)
+![](https://github.com/ToughRunner/Open5gs_bugreport2/blob/main/2.png)
 
 ## Upadate
 We have reported this vulnerability to the vendor through email at 19 Sep 2022, but this bug has not been fixed yet.
